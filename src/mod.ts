@@ -22,7 +22,7 @@ class Mod implements IPostDBLoadMod
         // Get globals settings and set flea market min level to be 1
         tables.globals.config.RagFair.minUserLevel = 999;
         
-        logger.logWithColor("[ViniHNS] Disabling Flea Market", LogTextColor.GREEN);
+        logger.logWithColor("[ViniHNS] NUTS (No Unfair Trade System) - Keeping it fair and square!", LogTextColor.GREEN);
 
     }
 }
