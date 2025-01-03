@@ -24,8 +24,6 @@ class Mod implements IPostDBLoadMod
         
         logger.logWithColor("[ViniHNS] Disabling Flea Market", LogTextColor.GREEN);
 
-        
-
     }
 }
 
