@@ -84,6 +84,16 @@ class Mod implements IPostDBLoadMod
             .addBarterCost(ItemTpl.BARTER_TOILET_PAPER, 3)
             .addLoyaltyLevel(2)
             .export(tables.traders[Traders.THERAPIST]);    
+
+        // Add Factory emergency exit key to Jaeger
+        this.fluentAssortCreator
+            .createSingleAssortItem(ItemTpl.KEY_FACTORY_EMERGENCY_EXIT)
+            .addStackCount(2)
+            .addBarterCost(ItemTpl.FOOD_MRE_RATION_PACK, 2)
+            .addBarterCost(ItemTpl.FOOD_PACK_OF_INSTANT_NOODLES, 3)
+            .addBarterCost(ItemTpl.FOOD_ARMY_CRACKERS, 3)
+            .addLoyaltyLevel(1)
+            .export(tables.traders[Traders.JAEGER]);
         
         
         this.logger.logWithColor(`[ViniHNS] ${this.mod} - Database Loaded`, LogTextColor.GREEN);
