@@ -2,7 +2,6 @@ import { DependencyContainer } from "tsyringe";
 
 import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import { DatabaseServer } from "@spt/servers/DatabaseServer";
-import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 
@@ -11,8 +10,10 @@ import { Traders } from "@spt/models/enums/Traders";
 
 import { FluentAssortConstructor as FluentAssortCreator } from "./fluentTraderAssortCreator";
 import { ItemTpl } from "@spt/models/enums/ItemTpl";
+import { HashUtil } from "@spt/utils/HashUtil";
+import { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
 
-class Mod implements IPostDBLoadMod
+class Mod implements IPostDBLoadMod, IPreSptLoadMod
 {
     private mod: string;
     private logger: ILogger;
@@ -20,6 +21,16 @@ class Mod implements IPostDBLoadMod
 
     constructor() {
         this.mod = "NUTS (No Unfair Trade System)"; // Set name of mod so we can log it to console later
+    }
+
+    public preSptLoad(container: DependencyContainer): void 
+    {
+         
+        // Get SPT code/data we need later
+        const hashUtil: HashUtil = container.resolve<HashUtil>("HashUtil");
+        this.logger = container.resolve<ILogger>("WinstonLogger");
+        this.fluentAssortCreator = new FluentAssortCreator(hashUtil, this.logger);
+        
     }
 
     public postDBLoad(container: DependencyContainer): void
