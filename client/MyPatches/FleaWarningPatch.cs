@@ -2,6 +2,7 @@
 using SPT.Reflection.Patching;
 using EFT.UI.Ragfair;
 using HarmonyLib;
+using EFT.UI;
 
 namespace noFlea.MyPatches
 {
@@ -12,17 +13,23 @@ namespace noFlea.MyPatches
             return AccessTools.Method(typeof(RagfairAvailabilityWarning), nameof(RagfairAvailabilityWarning.Show));
         }
 
-        [PatchPostfix]
-        static void Postfix(RagfairAvailabilityWarning __instance)
+        [PatchPrefix]
+        static bool Prefix(RagfairAvailabilityWarning __instance)
         {
+            if (!Plugin.ShouldDisableFleaWarning)
+                return true; 
             try
             {
-                __instance.Close();
-                Plugin.LogSource.LogInfo("RagfairAvailabilityWarning closed.");
+                if (Plugin.IsDebugEnabled)
+                {
+                    Plugin.LogSource.LogInfo("RagfairAvailabilityWarning blocked by configuration.");
+                }
+                return false; 
             }
             catch (System.Exception ex)
             {
-                Plugin.LogSource.LogError($"Error: {ex.Message}");
+                Plugin.LogSource.LogError($"Error in FleaWarningPatch: {ex.Message}");
+                return true; 
             }
         }
     }

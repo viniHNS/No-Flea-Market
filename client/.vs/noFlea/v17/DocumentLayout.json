@@ -1,14 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\EFT-DEV3.10\\noFlea\\",
+  "WorkspaceRootPath": "C:\\SPT\\dev\\noFlea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|d:\\eft-dev3.10\\noflea\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|C:\\SPT\\dev\\noFlea\\mypatches\\fleaaddofferbuttonpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|solutionrelative:mypatches\\fleaaddofferbuttonpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|c:\\spt\\dev\\noflea\\mypatches\\fleaaddoffercontextmenupatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|solutionrelative:mypatches\\fleaaddoffercontextmenupatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|C:\\SPT\\dev\\noFlea\\mypatches\\fleabuttonpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|solutionrelative:mypatches\\fleabuttonpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|C:\\SPT\\dev\\noFlea\\mypatches\\fleawarningpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|solutionrelative:mypatches\\fleawarningpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|c:\\spt\\dev\\noflea\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|noFlea.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyPatches\\SimplePatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +38,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SimplePatch.cs",
-              "DocumentMoniker": "D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs",
-              "RelativeDocumentMoniker": "MyPatches\\SimplePatch.cs",
-              "ToolTip": "D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs",
-              "RelativeToolTip": "MyPatches\\SimplePatch.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAABIAAAAAAAAAA==",
+              "Title": "FleaAddOfferContextMenuPatch.cs",
+              "DocumentMoniker": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaAddOfferContextMenuPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\FleaAddOfferContextMenuPatch.cs",
+              "ToolTip": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaAddOfferContextMenuPatch.cs",
+              "RelativeToolTip": "MyPatches\\FleaAddOfferContextMenuPatch.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T21:38:52.126Z"
+              "WhenOpened": "2025-07-22T19:27:13.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FleaAddOfferButtonPatch.cs",
+              "DocumentMoniker": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaAddOfferButtonPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\FleaAddOfferButtonPatch.cs",
+              "ToolTip": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaAddOfferButtonPatch.cs",
+              "RelativeToolTip": "MyPatches\\FleaAddOfferButtonPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:38:54.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FleaButtonPatch.cs",
+              "DocumentMoniker": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaButtonPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\FleaButtonPatch.cs",
+              "ToolTip": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaButtonPatch.cs",
+              "RelativeToolTip": "MyPatches\\FleaButtonPatch.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:06:57.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FleaWarningPatch.cs",
+              "DocumentMoniker": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaWarningPatch.cs",
+              "RelativeDocumentMoniker": "MyPatches\\FleaWarningPatch.cs",
+              "ToolTip": "C:\\SPT\\dev\\noFlea\\MyPatches\\FleaWarningPatch.cs",
+              "RelativeToolTip": "MyPatches\\FleaWarningPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:07:09.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Plugin.cs",
-              "DocumentMoniker": "D:\\EFT-DEV3.10\\noFlea\\Plugin.cs",
+              "DocumentMoniker": "C:\\SPT\\dev\\noFlea\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "D:\\EFT-DEV3.10\\noFlea\\Plugin.cs",
+              "ToolTip": "C:\\SPT\\dev\\noFlea\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T21:38:13.365Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimplePatch.cs",
+              "DocumentMoniker": "D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs",
+              "ToolTip": "D:\\EFT-DEV3.10\\noFlea\\MyPatches\\SimplePatch.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:38:52.126Z"
             }
           ]
         }
