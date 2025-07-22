@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/brace-style */
 /* eslint-disable @typescript-eslint/naming-convention */
 
 import { DependencyContainer } from "tsyringe";
